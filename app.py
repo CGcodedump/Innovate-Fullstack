@@ -41,6 +41,14 @@ def contact_us():
 def home_redirect():
     return redirect(url_for("home"))
 
+@app.route("/members")
+def members_redirect():
+    return redirect(url_for("fc_leaders"))
+
+@app.route("/house")
+def estate_redirect():
+    return redirect(url_for("fc_estate"))
+
 ########################################
 #? ERRORS
 ########################################

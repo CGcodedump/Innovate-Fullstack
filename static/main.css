@@ -172,15 +172,16 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #342E37;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    font-family: monospace;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #F46036;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
